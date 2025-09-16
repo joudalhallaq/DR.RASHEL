@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>منتجاتنا - DR.RSHEL</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>DR.RSHEL</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html">المنتجات</a>
+      <a href="about.html">من نحن</a>
+      <a href="delivery.html">التوصيل</a>
+      <a href="contact.html">اتصل بنا</a>
+      <a href="cart.html">السلة 🛒</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="images/serum.jpg" alt="سيروم فيتامين C">
+        <h3>سيروم فيتامين C</h3>
+        <p>JD 15</p>
+        <button onclick="addToCart('سيروم فيتامين C', 15)">أضف للسلة</button>
+      </div>
+      <div class="product">
+        <img src="images/mask.jpg" alt="ماسك ترطيب">
+        <h3>ماسك ترطيب</h3>
+        <p>JD 10</p>
+        <button onclick="addToCart('ماسك ترطيب', 10)">أضف للسلة</button>
+      </div>
+      <div class="product">
+        <img src="images/cream.jpg" alt="كريم نهاري">
+        <h3>كريم نهاري</h3>
+        <p>JD 20</p>
+        <button onclick="addToCart('كريم نهاري', 20)">أضف للسلة</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
